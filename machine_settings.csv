@@ -1,0 +1,7 @@
+machine_id,size,battery_capacity,operating_power
+ex_lar,lar,568,283
+ex_med,med,264,160
+du_lar,lar,490,82
+du_med,med,314,48
+wl_lar,lar,451,94
+wl_med,med,237,47

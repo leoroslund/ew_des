@@ -1,0 +1,72 @@
+LAR6B350
+Toppeffekt [kW]: 2118
+Medeleffekt [kW]: 251
+Totalt energibehov [kWh]: 2262
+Produktivitet: 100.0%
+
+LAR4C350
+Toppeffekt [kW]: 1418
+Medeleffekt [kW]: 335
+Totalt energibehov [kWh]: 3019
+Produktivitet: 100.0%
+
+LAR3B350
+Toppeffekt [kW]: 1068
+Medeleffekt [kW]: 251
+Totalt energibehov [kWh]: 2262
+Produktivitet: 100.0%
+
+LAR2C350
+Toppeffekt [kW]: 1227
+Medeleffekt [kW]: 335
+Totalt energibehov [kWh]: 3019
+Produktivitet: 100.0%
+
+LAR6B150
+Toppeffekt [kW]: 918
+Medeleffekt [kW]: 185
+Totalt energibehov [kWh]: 1662
+Produktivitet: 91.7%
+
+LAR4C150
+Toppeffekt [kW]: 1127
+Medeleffekt [kW]: 297
+Totalt energibehov [kWh]: 2669
+Produktivitet: 93.8%
+
+LAR3B150
+Toppeffekt [kW]: 468
+Medeleffekt [kW]: 174
+Totalt energibehov [kWh]: 1562
+Produktivitet: 92.9%
+
+LAR2C150
+Toppeffekt [kW]: 827
+Medeleffekt [kW]: 290
+Totalt energibehov [kWh]: 2607
+Produktivitet: 94.5%
+
+MED6B150
+Toppeffekt [kW]: 918
+Medeleffekt [kW]: 135
+Totalt energibehov [kWh]: 1212
+Produktivitet: 97.9%
+
+MED4C150
+Toppeffekt [kW]: 618
+Medeleffekt [kW]: 176
+Totalt energibehov [kWh]: 1586
+Produktivitet: 100.0%
+
+MED3B150
+Toppeffekt [kW]: 468
+Medeleffekt [kW]: 135
+Totalt energibehov [kWh]: 1212
+Produktivitet: 97.9%
+
+MED2C150
+Toppeffekt [kW]: 606
+Medeleffekt [kW]: 176
+Totalt energibehov [kWh]: 1586
+Produktivitet: 100.0%
+
