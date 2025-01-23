@@ -253,14 +253,14 @@ def simulation(simulation_settings, machine_settings, epp, save, show, grid):
                 plt.ylim(top=2200)
             plt.tight_layout()
             
-            if not os.path.exists("./figs_testing/"):
-                os.makedirs("./figs_testing/")
-                print("Directory '{./figs_testing/}' created.")
+            if not os.path.exists("./figs_simulation/"):
+                os.makedirs("./figs_simulation/")
+                print("Directory '{./figs_simulation/}' created.")
             else:
                 pass
             
             if save == True:
-                plt.savefig(f"./figs_testing/{simulation_name}_{type}.png", dpi=300)
+                plt.savefig(f"./figs_simulation/{simulation_name}_{type}.png", dpi=300)
                 if show == False:
                     plt.clf()
             if show == True:
@@ -357,7 +357,7 @@ def run_all(simulation_settings, machine_settings, epp, show=False, save=True, g
         machine_config = machine_settings.loc[machine_settings["size"] == str(size_setting)]
         simulation(sim_df, machine_config, epp, save, show, grid)
     if save == True:
-        return print("Finished. You can find the plots in figs_testing and the results in results.txt.")
+        return print("Finished. You can find the plots in figs_simulation and the results in results.txt.")
     return print("Finished. You can find the results in results.txt")
         
 def run_single(simulation_name, simulation_settings, machine_settings, epp, save=False, show=True, grid=False):
@@ -370,7 +370,7 @@ def run_single(simulation_name, simulation_settings, machine_settings, epp, save
     
     simulation(simulation_config, machine_config, epp, save, show, grid)
     if save == True:
-        return print("Finished. You can find the plots in figs_testing and the results in results.txt.")
+        return print("Finished. You can find the plots in figs_simulation and the results in results.txt.")
     return print("Finished. You can find the results in results.txt.")
 
 def run_combined(simulation_settings, machine_settings, epp):
@@ -459,10 +459,10 @@ def run_combined(simulation_settings, machine_settings, epp):
             plot_setting(f"{simulation_name}, active machines over time", "ACT", axes[i, 2], "Time", "# active machines", x_ticks, ticks_to_time)
 
         plt.tight_layout()
-        plt.savefig(f"./figs_testing/{group[0][0:3]}_{group[0][-3:]}.png")
+        plt.savefig(f"./figs_simulation/{group[0][0:3]}_{group[0][-3:]}.png")
 
 
-    return print("Finished. You can find the plots in figs_testing and the results in results.txt.")
+    return print("Finished. You can find the plots in figs_simulation and the results in results.txt.")
 
 def main(power_profile, machines, simulation_settings, save=False, show=True, grid=False):
     if power_profile == None or machines == None or simulation_settings == None:
